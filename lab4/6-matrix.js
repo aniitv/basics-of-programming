@@ -12,5 +12,4 @@ for (let row of matrix) {
     }
   }
 }
-
 console.log(max);
