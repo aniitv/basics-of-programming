@@ -4,7 +4,7 @@ function seq(...args) {
   const functions = [...args];
 
   function chain(value) {
-    if (typeof next === "number") {
+    if (typeof value === "number") {
       return functions.reduceRight((result, fn) => fn(result), value);
     } else if (typeof value === "function") {
       functions.push(value);
