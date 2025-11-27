@@ -1,3 +1,4 @@
+"use strict";
 const ages = (persons) => {
   const lifeAges = {};
 
